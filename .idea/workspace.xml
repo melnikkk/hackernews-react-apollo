@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51febba-96dc-43d6-a1a9-c9a9a360d861" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LinkList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/CreateLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mutations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1vAQTxjGmpZT5w8gkg8bHSAOGA9" />
@@ -55,7 +61,9 @@
       <updated>1626002427197</updated>
       <workItem from="1626002430708" duration="795000" />
       <workItem from="1626091987660" duration="502000" />
-      <workItem from="1626506714199" duration="7186000" />
+      <workItem from="1626506714199" duration="10707000" />
+      <workItem from="1626632255661" duration="2863000" />
+      <workItem from="1627670752164" duration="2676000" />
     </task>
     <servers />
   </component>
@@ -72,6 +80,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
