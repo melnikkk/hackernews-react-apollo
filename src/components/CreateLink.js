@@ -1,15 +1,18 @@
 import React, { useState } from "react";
 import { useMutation } from "@apollo/client";
+import { useHistory } from "react-router";
 import { CREATE_LINK_MUTATION } from "../mutations";
 
 export const CreateLink = () => {
   const [description, setDescription] = useState("");
   const [url, setUrl] = useState("");
+  const history = useHistory();
   const [createLink] = useMutation(CREATE_LINK_MUTATION, {
     variables: {
       url,
       description,
     },
+    onCompleted: () => history.push("/"),
   });
 
   const onFormSubmit = (e) => {
